@@ -1,0 +1,32 @@
+/* ---- Magic begins ----*/
+/* Use flex and set auto margin */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  
+  /* ---- Magic ends ----*/
+  /* Some base styling for the demo */
+  body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #0e6666;
+    color: #e2fdfd;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  footer {
+    background: #132020;
+    color: #ccdbdb;
+    padding: 1rem;
+  }
